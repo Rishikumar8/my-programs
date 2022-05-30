@@ -1,0 +1,30 @@
+//Write a program to Enter student marks and print average and percent.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ char name[20];
+  int a,b,c,d,e,sum,aveg,percent;
+  printf("Enter First Name =");
+  scanf("%s",&name);
+  printf("Enter English Marks out of 100 =");
+  scanf("%d",&a);
+  printf("Enter Hindi Marks out of 100 =");
+  scanf("%d"&b);
+  printf("Enter Maths Marks out of 100 =");
+  scanf("%d",&c);
+  printf("Enter Science Marks out of 100 =");
+  scanf("%d",&d);
+  printf("Enter Sanskrit Marks out of 100 =");
+
+  sum=a+b+c+d+e;
+  average=(a+b+c+d+e)/5;
+  percent=(a+b+c+d+e)/5;
+
+  printf("\nThe sum is= %d",sum);
+  printf("\nThe Average is= %d",aveg);
+  printf("\nThe Percent is=%d",percent);
+  printf("You are Pass:");
+  getch();
+
+
+}

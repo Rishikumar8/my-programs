@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ //int i;
+  clrscr();
+  if(1,-4,2,4,7)
+  {
+  printf("\nHello");
+  }
+  else
+  {
+  printf("\nHi");
+  }
+  getch();
+
+}

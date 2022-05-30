@@ -1,0 +1,21 @@
+//one int, two float, one long double,two char.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  int a;
+  float b,c;
+  long double d;
+  char e,f;
+  clrscr();
+  prinrf("\nEnter one int ");
+  scanf("%d",&a);
+  printf("\nEnter two float ");
+  scanf("%f%f",&b,&c);
+  printf("\nEnter one long double ");
+  scanf("%Lf",&d);
+  printf("\nEnter two char ");
+  scanf(" %c %c",&e,&f);
+  printf("\n%f\t%f\t%Lf\t%c\t%c",a,b,c,d,e,f);
+  getch();
+}

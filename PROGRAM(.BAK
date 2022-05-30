@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ clrscr();
+//printf("%5d\n",99);
+
+//printf("%9d\n",235);
+
+//printf("%-5d",99);
+
+
+printf("%-7ddvr%5d",264,32);
+getch();
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ int i;
+  printf("Enter A New Number \n");
+  scnaf("%d",&i);
+  if()
+  {
+
+
+
+  }
+  else if()
+  { if()printf("");
+    else printf("");
+  }
+  else if()
+  {
+    if() printf("");
+    else printf("");
+
+  }
+  else printf("\nHi");
+  getch();
+}

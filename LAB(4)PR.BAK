@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ char a;
+  int b;
+  clrscr();
+
+printf("Enter Any Character = \n");
+scanf("%c",&a);
+printf("\nASCII value Of %c is %d",a,(int)a);
+
+
+printf("\nEnter Any Number = \n");
+scanf("%d",&b);
+printf("\n ASCII Value Of %d is %d",b,(int)b);
+getch();
+}

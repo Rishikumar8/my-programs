@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ int i;
+  clrscr();
+  printf("Enter a value\n");
+  scanf("%d",&i);
+  if(i>10)
+  printf("\nHello");  //conditional statement
+  printf("\nHi");     //free statement
+  getch();
+}

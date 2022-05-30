@@ -1,0 +1,23 @@
+//Write a program to swap two numbers
+#include<stdio.h>
+#include<conio.h>
+void main()
+{ int a,b,temp1;
+  clrscr();
+  printf("Enter First Number ");
+  scanf("%d",&a);
+  printf("Enter Second Number ");
+  scanf("%d",&b);
+
+  printf("\nNumber before swapping A=%d\n",a);
+  printf("\nNumber before swapping B=%d\n",b);
+
+  temp1=a;
+  a=b;
+  b=temp1;
+  printf("\nNumber after swapping A=%d\n",a);
+  printf("\nNumber after swapping B=%d\n",b);
+  getch();
+
+
+}

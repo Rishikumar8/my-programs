@@ -1,0 +1,17 @@
+//WAP to calculate area of rectangle.
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+
+  float L,B,area;
+  clrscr();
+  printf("\nEnter the length:");
+  scanf("%f",&L);
+  printf("\nEnter the breadth:");
+  scanf("%f",&B);
+  area=L*B;
+  printf("\nArea of ractangle is:%f",area);
+  getch();
+
+}
